@@ -1,0 +1,32 @@
+.scrollToTop {
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+    z-index: 100;
+    position: fixed;
+    bottom: 15%;
+    right: 5%;
+    border-radius: 5rem;
+   background-color: #760ed7;
+    height: 4rem;
+    width: 4rem;
+    border: solid 3px transparent;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px var(--background) inset;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .visible {
+    visibility: visible;
+    opacity: 1;
+  }
+  .scrollToTop>a>svg {
+color: white;
+    font-size: 1.8rem;
+  }

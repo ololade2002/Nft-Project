@@ -1,0 +1,225 @@
+
+.nav {
+    display: flex;
+    flex-direction: row;
+   align-items: baseline;
+ 
+    justify-content: space-between;
+ padding: 1.4rem 0rem;
+    margin: 0rem 3rem;
+}
+.logo>img {
+    width: 10rem;
+}
+.navLink {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.navLink>li {
+    list-style: none;
+}
+
+.mode {
+    display: none;
+}
+
+.navLink>li>a {
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+}
+
+.navLink>li>a:hover , .navLink>li>a:focus {
+    color: #9132ea;
+  
+}
+.navbar>div:nth-of-type(3) {
+    display: flex;
+    gap: 2rem;
+}
+.link {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.link li {
+    list-style: none;
+}
+.button {
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid   #9132ea !important;
+    color: white;
+    background: transparent !important;
+padding: 10px 1rem !important;
+border-radius: 25px !important;
+font-weight: 400 !important;
+font-size: 13px !important ;
+transition: .7s ease-in-out;
+display: flex !important;
+align-items: center !important;
+gap: .5rem !important;
+}
+#light .button {
+    color: black !important;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid   #9132ea !important;
+    background: #9132ea !important ;
+padding: 10px 1rem ;
+border-radius: 25px !important;
+font-weight: 400 !important;
+font-size: 14px !important ;
+transition: .7s ease-in-out;
+display: flex !important;
+align-items: center !important;
+gap: .5rem !important;
+}
+.button>svg {
+    font-size: 1.2rem;
+}
+.mobile-link {
+    display: none;
+  
+}
+.menu {
+    background-color: transparent;
+    border: none;
+    outline: none;
+display: none;
+}
+.menu>img {
+    width: 1.5rem;
+    
+}
+
+
+@media screen and (max-width:991px) {
+    .nav {
+        margin: 0rem 0rem;
+        position: relative;
+        align-items: center;
+    }
+    
+    .logo {
+        margin: 0rem 1rem;
+    }
+    .logo>img {
+        width: 9rem;
+      
+    }
+    .navLink {
+        display: none;
+    }
+    .button {
+        display: none;
+    }
+    .menu {
+        background-color: transparent;
+        margin: 0rem 1rem;
+        border: none;
+        outline: none;
+    display: flex;
+    }
+    .menu>img {
+        width: 1.4rem;
+        position: relative;
+        z-index: 4;
+    }
+    .link {
+        display: flex;
+        align-items: baseline;
+      
+    }
+    .link li svg {
+font-size: 25px;
+    }
+    .link li {
+        list-style: none;
+    }
+    .button {
+        display: flex;
+    }
+    .mobile-link {
+        display: flex;
+        flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding-left: 0rem;
+        position: absolute;
+    background-color: black;
+    z-index: 4;
+        width: 100%;
+        height: 100vh;
+        gap: 2rem;
+        top: 0rem;
+        left: 0;
+    }
+    .mobile-link>li {
+        list-style: none;
+        padding: 20px;
+    }
+    .mobile-link>li>a {
+        text-decoration: none;
+        color: white;
+       
+    }
+    
+    .button {
+
+        font-size: 20px;
+    }
+    #light .button {
+        border: 2px solid black;
+        font-weight: 400;
+    }
+    #light .menu>img {
+       color: black !important;
+    }
+    .mobile-link>li>a:hover , .mobile-link>li>a:focus {
+        color: #9132ea;
+      
+    }
+}
+
+
+/*LIGHT MODE */
+
+#light .navLink>li>a {
+    color: black;
+}
+#light .navLink>li>a:hover {
+    color: #4e1e7b;
+}
+#light .logo>img {
+    filter: invert(0%) brightness(0);
+}
+#light .button {
+    color: black;
+}
+#light .button {
+    border: 2px solid #9132ea;
+    
+}
+#light .button:hover {
+    color: white;
+       background-color: #9132ea;
+   }
+
+   #light .mobile-link {
+  background: #9132ea;
+   }
+   #light .navLink>li>a {
+    font-weight: 400;
+   }
+   #light .mobile-link>li>a {
+    color: white;
+
+   }
+   #light .mobile-link>li>a:hover {
+    opacity: .8;
+
+   }  
+#light .menu>img {
+    filter: invert(0) brightness(0);
+}

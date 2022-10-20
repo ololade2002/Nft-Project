@@ -1,0 +1,132 @@
+
+.feature {
+    padding: 3rem 3rem 6rem 3rem;
+
+}
+
+.feature>h1 {
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+#light .feature>h1 {
+    color: #000;
+}
+.feature>h1>span {
+    color: #9132ea;
+}
+.feature-body {
+    display: flex;
+    gap: 2rem;
+
+}
+.features-preview {
+    position: relative;
+    border-radius: 15px;
+}
+
+.features-preview>img {
+  position: absolute;
+  right: -1rem;
+  top: -2rem;
+    width: 4rem;
+}
+.card-f {
+    padding: 2.5rem 1.3rem 1rem 1.3rem;
+    border-radius: 15px;
+}
+.card-f>p {
+    color: white;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+#light .card-f>p {
+    color: #000;
+    font-weight: 400;
+}
+.card-f>h3 {
+    color: #9132ea;
+    margin-bottom: 1.5rem;
+    height: 10vh;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.card-f>h6 {
+    color: white;
+    font-weight: 300;
+    font-size: 15px;
+}
+#light .card-f>h6 {
+    color: #000;
+    font-weight: 400;
+}
+
+.features-preview:nth-of-type(1){
+    flex: 1;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+.features-preview:nth-of-type(1):hover{
+   box-shadow: none;
+}
+.features-preview:nth-of-type(2):hover{
+    box-shadow: none;
+ }
+ .features-preview:nth-of-type(3):hover{
+    box-shadow: none;
+ }
+ .features-preview:nth-of-type(4):hover{
+    box-shadow: none;
+ }
+.features-preview:nth-of-type(2){
+    flex: 1;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.features-preview:nth-of-type(3){
+    flex: 1;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.features-preview:nth-of-type(4){
+    flex: 1;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+@media screen and (max-width:1600px) {
+    .card-f>h3 {
+        height: 8vh;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .feature-body {
+        display: flex;
+    flex-direction: column;
+   
+    }
+    .card-f>h3 {
+        height: auto;
+    }
+    .feature>h1 {
+        font-size: xx-large;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .feature {
+        padding: 3rem 1rem 3rem 1rem;
+     }
+    .card-f>h3 {
+        font-size: larger;
+    }
+}

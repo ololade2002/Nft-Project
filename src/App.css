@@ -1,0 +1,7 @@
+.App {
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+}
+#light.App {
+    background-color: white;
+}

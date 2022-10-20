@@ -1,0 +1,112 @@
+
+
+.nft {
+    color: white;
+    padding: 0rem 0rem 2rem 0rem;
+    overflow-x: hidden;
+    height: auto;
+    position: relative;
+    background-position:300px ;
+}
+.nft>h2 {
+
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-align: center;
+
+    color: white;
+    margin-bottom: 2rem;
+}
+.carousel {
+    width: 100%;
+   
+text-align: center;
+margin: 3rem auto;
+gap: 2rem;
+
+}
+.carousel1 {
+    width: 100%;
+    text-align: center;
+    margin: 0px auto;
+    gap: 2rem;
+    
+}
+.carousel1 .react-multi-carousel-track {
+    direction: rtl;
+}
+.react-multi-carousel-track {
+display: flex;
+gap: 0rem;
+}
+
+
+.img-slider {
+    height: 20rem;
+
+}
+.img-slider>img {
+    width: 18rem;
+    height: 20rem;
+    position: relative;
+}
+.img-slider>img::before {
+   content: '';
+   position: absolute;
+   height: 100%;
+   background-color: #9132ea;
+   width: 100%;
+}
+
+
+@media screen and (max-width:1200px) {
+    .nft-body {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .nft-card {
+       width: 100%;
+    }
+    
+}
+
+@media screen and (max-width:418px) {
+    .nft-preview {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 0px auto;
+        padding: 0rem 1rem;
+    }
+    .nft-card>img {
+        width: 100%;
+
+    }
+}
+
+/*Light Mode */
+
+#light .img-slider>img {
+    background-color: #000;
+}
+#light .nft>h2 {
+    color: #000;
+}
+#light .nft-card>div:nth-of-type(1)>h4 {
+    color: #000;
+}
+#light .second>h4 {
+color: #000;
+font-weight: 400;
+}
+#light .btn1>button:nth-of-type(2) {
+    border: 2px solid #9132ea;
+    color: #9132ea;
+    font-weight: 400;
+}
+#light .nft-card {
+    background-color:gray;
+    
+}
+
+

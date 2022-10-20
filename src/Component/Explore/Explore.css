@@ -1,0 +1,228 @@
+.explore {
+    color: white;
+    width: 100%;
+ height: auto;
+padding-bottom: 3.5rem;
+ overflow-x: hidden;
+}
+
+.explore>h2 {
+    text-align: center;
+    margin-bottom: 2.5rem;
+    font-size: 2.5rem;
+}
+#light .explore>h2 {
+    color: black;
+    font-weight: 400;
+}
+.tabs {
+  width: 100%;
+
+}
+
+.rb-tabs-items {
+    font-weight: 300;
+    text-align: center;
+
+}
+
+.rb-tabs-active-item {
+    background-color: #9132ea !important;
+
+}
+.rb-tabs-item {
+    width: 25%;
+ 
+}
+#light .rb-tabs-item {
+    color: black;
+    font-weight: 500;
+ 
+}
+.rb-tabs-item.active {
+    color: #9132ea !important;
+}
+.tab-content {
+    color: white;
+}
+
+.tab-content {
+    justify-content: center;
+    padding: 0rem 1rem;
+    display: flex;
+    gap: 2rem;
+  
+    margin-top: 2rem !important;
+}
+.afro-preview {
+  flex-direction: column;
+    display: flex;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.afro-preview>img {
+    width: 17rem;
+    height: 20rem;
+}
+
+.card-body>h4 {
+    font-size: 16px;
+ padding: 4px 12px;
+    font-weight: 300;
+}
+#light .card-body>h4 {
+    font-weight: 500;
+}
+.card-body>div>h5 {
+    font-size: 14px;
+    font-weight: 300;
+    padding: 2px 12px;
+}
+#light .card-body>div>h5 {
+    color: black;
+    font-weight: 400;
+}
+.card-body>div:nth-of-type(1) {
+    display: flex;
+    flex-direction: column;
+}
+.crypto-icon {
+    display: flex;
+    gap: .6rem;
+    font-size: 1.1rem;
+    padding: 1px 12px;
+}
+#light .crypto-icon {
+    color: #9132ea;
+    font-weight: 500;
+}
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1px 12px 1px 12px;
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: .9rem;
+    margin-bottom: 0.7rem;
+ 
+}
+#light .bottom>div:nth-of-type(1) {
+    color: black;
+    font-weight: 400;
+}
+#light .bottom>div:nth-child(2) {
+    color: black;
+    font-weight: 400;
+}
+#light .bottom>div:nth-of-type(2)>div {
+    font-weight: 500;
+}
+#light .bottom>div:nth-of-type(2)>h6 {
+    font-weight: 400;
+}
+.bottom>div:nth-of-type(2) {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom>div>div:nth-of-type(2) {
+    display: flex;
+    gap: 0.6rem;
+   
+    align-items: center;
+}
+.bottom>div>div:nth-of-type(2)>img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 99px;
+}
+.bottom-button {
+    display: flex;
+    justify-content: center;
+    gap: .7rem;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: .6rem;
+    padding: 1px 12px;
+}
+.btn3 {
+    border: 2px solid #9132ea !important;
+    display: flex;
+    align-items: center;
+    background: transparent !important;
+    gap: 0.3rem;
+    padding: 0.2rem 0.3rem;
+    border-radius: 5px;
+}
+#light .btn3 {
+    color: #000;
+    font-weight: 400;
+}
+.btn4 {
+    background-color: #9132ea !important;
+    color: white;
+    display: flex;
+    border: none !important;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.2rem 0.3rem;
+    border-radius: 5px;
+}
+#light .btn4 {
+    color: #000;
+    font-weight: 400;
+}
+.bottom>div:nth-of-type(2)>h6 {
+    font-weight: 300;
+    font-size: 15px;
+}
+.bottom>div:nth-of-type(2)>div {
+    color: #9132ea;
+    font-size: 16px;
+    font-weight: 300;
+}
+.card-body>h4 {
+    color: #9132ea;
+    font-size: 18px;
+}
+.button3 {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
+    padding: 6px .8rem;
+    border-radius: 6px;
+    color: black;
+    background: #9132ea;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+.button3:hover {
+    opacity: .8;
+}
+
+@media screen and (max-width:1200px) {
+.tab-content {
+    flex-wrap: wrap;
+}
+
+}
+
+@media screen and (max-width:418px) {
+    .afro-preview {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 0px auto;
+    }
+    .afro-preview>img {
+        width: 100%;
+    
+    }
+}
