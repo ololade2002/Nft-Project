@@ -1,3 +1,3 @@
 # Nft-Project
 
-Live Site :nftlanding-dev.netlify.app
+Live Site : nftlanding-dev.netlify.app
